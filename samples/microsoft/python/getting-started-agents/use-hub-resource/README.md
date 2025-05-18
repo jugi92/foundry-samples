@@ -20,7 +20,7 @@ If you are using Azure AI Foundry **Project** Resource:
   - your connection id should be in this format: `/subscriptions/<sub-id>/resourceGroups/<your-rg-name>/providers/Microsoft.CognitiveServices/accounts/<your-ai-services-name>/projects/<your-project-name>/connections/<your-connection-name>`
 - for SDK
   - make sure you [azure-ai-projects](https://pypi.org/project/azure-ai-projects/) and [azure-ai-agents](https://pypi.org/project/azure-ai-agents/1.0.0b1)
-  - follow the samples here: [Grounding with Bing Custom Search](../bing_custom_search.py) and Fabric(../fabric_data_agent.py)
+  - follow the samples here: [Grounding with Bing Custom Search](../bing_custom_search.py) and [Fabric](../fabric_data_agent.py)
   - your connection id should be in this format: `/subscriptions/<sub-id>/resourceGroups/<your-rg-name>/providers/Microsoft.CognitiveServices/accounts/<your-ai-services-name>/projects/<your-project-name>/connections/<your-connection-name>`
 
 
