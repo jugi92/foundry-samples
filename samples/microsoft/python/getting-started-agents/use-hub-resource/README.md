@@ -9,7 +9,7 @@ You can check the resource type of your project by going to [Azure AI Foundry Po
 Please make sure your resource type, API version and SDK version matches with each other
 | Resource Type | API Supported | SDK Version| Supported Experience| 
 |----------------|----------------|----------------|----------------|
-| [**Azure AI Foundry Project Resource**](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/architecture)    | `2025-05-15-preview` or later   | Coming soon   | API and Azure AI Foundry Portal | 
+| [**Azure AI Foundry Project Resource**](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/architecture)    | `2025-05-15-preview` or later   | [azure-ai-projects](https://pypi.org/project/azure-ai-projects/) and [azure-ai-agents](https://pypi.org/project/azure-ai-agents/1.0.0b1)   | API and Azure AI Foundry Portal | 
 | [**Azure AI Foundry Hub Resource**](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/architecture)   | `2024-12-01-preview` or before   | [azure-ai-projects 1.0.0b10](https://pypi.org/project/azure-ai-projects/1.0.0b10/)   | API, SDK, and Azure AI Foundry Portal| 
 
 If you are using Azure AI Foundry **Project** Resource:
@@ -17,6 +17,10 @@ If you are using Azure AI Foundry **Project** Resource:
   - just make sure you select the project of resource type `AI Foundry` 
 - for API
   - follow the quickstart [here](https://learn.microsoft.com/en-us/azure/ai-services/agents/quickstart?pivots=rest-api) to set up 
+  - your connection id should be in this format: `/subscriptions/<sub-id>/resourceGroups/<your-rg-name>/providers/Microsoft.CognitiveServices/accounts/<your-ai-services-name>/projects/<your-project-name>/connections/<your-connection-name>`
+- for SDK
+  - make sure you [azure-ai-projects](https://pypi.org/project/azure-ai-projects/) and [azure-ai-agents](https://pypi.org/project/azure-ai-agents/1.0.0b1)
+  - follow the samples here: [Grounding with Bing Custom Search](../bing_custom_search.py) and Fabric(../fabric_data_agent.py)
   - your connection id should be in this format: `/subscriptions/<sub-id>/resourceGroups/<your-rg-name>/providers/Microsoft.CognitiveServices/accounts/<your-ai-services-name>/projects/<your-project-name>/connections/<your-connection-name>`
 
 
