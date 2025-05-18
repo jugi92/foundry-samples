@@ -3,6 +3,7 @@
 You can use Azure AI Foundry Agent Preview API such as `2024-12-01-preview` or `2025-05-15-preview` to interact with tools in public preview, such as Microsoft Fabric tool, Grounding with Bing Custom Search tool and more. 
 
 You can check the resource type of your project by going to [Azure AI Foundry Potral](https://ai.azure.com) and click the project you are using on the top left. In the dropdown, you can see if it belongs to `Hub` or `AI Foundry`
+
 ![image](https://github.com/user-attachments/assets/10023985-3a8d-4da1-a055-ad24cfc56ee5)
 
 Please make sure your resource type, API version and SDK version matches with each other
