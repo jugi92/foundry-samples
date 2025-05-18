@@ -25,7 +25,7 @@ If you are using Azure AI Foundry **Hub** Resource:
   - just make sure you select the project of resource type `Hub`
 - for SDK
   - make sure you use [azure-ai-projects 1.0.0b10](https://pypi.org/project/azure-ai-projects/1.0.0b10/)
-  - Follow the [sample code](./preview-tools-hub) for tools in preview
+  - Follow the [sample code](./samples) for tools in preview
   - your connection id should be in this format: `/subscriptions/<sub-id>/resourceGroups/<resource-group-name>/providers/Microsoft.MachineLearningServices/workspaces/<project-name>/connections/<connection-name>`
 - for API
   - your API endpoint should be in this format: `https://ai.azure.com/api/{region}/agents/v1.0/subscriptions/{subscription-id}/resourceGroups/{resource-group-name}/providers/Microsoft.MachineLearningServices/workspaces/{project-name}/assistants?api-version=2024-12-01-preview
