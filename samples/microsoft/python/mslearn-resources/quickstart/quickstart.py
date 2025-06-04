@@ -21,7 +21,7 @@ response = models.chat.completions.create(
 )
 
 print(response.choices[0].message.content)
-# </chat_completion>
+
 
 # <create_and_run_agent>
 from azure.ai.projects import AIProjectClient
