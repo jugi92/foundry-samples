@@ -14,8 +14,10 @@ Certain Agent offerings may be subject to legal and regulatory requirements, may
 - **Multi-Turn Interactions**: Enables agents to handle multi-step conversations and pass context fluidly between agents, ensuring consistent responses.
 - **Cross-Platform Flexibility**: Designed to work with a wide range of open-source agent frameworks, including AutoGen, LangChain, and Semantic Kernel, providing maximum flexibility for developers.
 
-## Running
+## Get Started
 
+Before running please make sure you update the `--endpoint` with the project endpoint, for example: `https://<name>.services.ai.azure.com/api/projects/<project-name>` in `Properties\launchSettings.json`, then:
+ 
 ```
 make restore build run
 ```
