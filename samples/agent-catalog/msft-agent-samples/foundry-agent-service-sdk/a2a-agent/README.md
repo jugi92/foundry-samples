@@ -1,4 +1,4 @@
-# A2A Foundry Agent
+# 💬 A2A Foundry Agent
 Azure AI Foundry supports Google's open protocol called [Agent2Agent (A2A)](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/), enabling seamless interoperability across agents and third-party tools. This includes:
 
 Azure AI Foundry Agent Service introduces a new A2A API head, enabling open-source orchestrators to connect with Foundry Agent Service agents without requiring custom integrations. This API head supports multi-turn conversations, seamless context handoffs, and bi-directional communication, making it easier for developers to extend their existing agent systems without rebuilding core logic.Features include:
