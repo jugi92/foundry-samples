@@ -16,7 +16,7 @@ Certain Agent offerings may be subject to legal and regulatory requirements, may
 
 ## Get Started
 
-Before running please make sure you update the `--endpoint` with the project endpoint, for example: `https://<name>.services.ai.azure.com/api/projects/<project-name>` in `Properties\launchSettings.json`, then:
+Before running please make sure you update the `--endpoint` with the project endpoint in launchSettings.json, for example: `https://<name>.services.ai.azure.com/api/projects/<project-name>` in `Properties\launchSettings.json`, then:
  
 ```
 make restore build run
