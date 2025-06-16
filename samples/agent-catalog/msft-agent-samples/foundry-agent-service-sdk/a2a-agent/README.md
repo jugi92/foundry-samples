@@ -3,7 +3,7 @@ Azure AI Foundry supports Google's open protocol called [Agent2Agent (A2A)](http
 
 Azure AI Foundry Agent Service introduces a new A2A API head, enabling open-source orchestrators to connect with Foundry Agent Service agents without requiring custom integrations. This API head supports multi-turn conversations, seamless context handoffs, and bi-directional communication, making it easier for developers to extend their existing agent systems without rebuilding core logic.Features include:
 
-This code sample demonstrates how Azure AI Foundry agents are A2A compatible. This sample uses the `Azure.AI.Agents.Persistent` to create a foundry agent, but then interacts with the agents via the `a2a-net.Client` SDK. It uses `Azure.Identity` for EntraID auth using the A2A client library.
+This code sample demonstrates how Azure AI Foundry agents are A2A compatible. The sample uses the `Azure.AI.Agents.Persistent` to create a foundry agent, but then interacts with the agents via the `a2a-net.Client` SDK. It uses `Azure.Identity` for EntraID auth using the A2A client library.
 
 **IMPORTANT NOTE:** Starter templates, instructions, code samples and resources in this msft-agent-samples file (“samples”) are designed to assist in accelerating development of agents for specific scenarios. It is important that you review all provided resources and carefully test Agent behavior in the context of your use case: ([Learn More](https://learn.microsoft.com/en-us/legal/cognitive-services/agents/transparency-note?context=%2Fazure%2Fai-services%2Fagents%2Fcontext%2Fcontext)). 
 
