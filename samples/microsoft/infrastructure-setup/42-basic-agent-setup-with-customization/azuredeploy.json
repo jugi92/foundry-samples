@@ -6,14 +6,10 @@
     "_generator": {
       "name": "bicep",
       "version": "0.36.1.42791",
-      "templateHash": "10010271755781608707"
+      "templateHash": "3050485240988654035"
     }
   },
   "parameters": {
-    "azureDeployName": {
-      "type": "string",
-      "defaultValue": "[utcNow()]"
-    },
     "aiFoundryName": {
       "type": "string",
       "defaultValue": "foundy",
@@ -94,6 +90,10 @@
       "metadata": {
         "description": "The name of the App Insights resource to create"
       }
+    },
+    "azureDeployName": {
+      "type": "string",
+      "defaultValue": "[utcNow()]"
     }
   },
   "variables": {

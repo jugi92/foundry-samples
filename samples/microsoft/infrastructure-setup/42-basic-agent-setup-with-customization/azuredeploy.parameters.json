@@ -18,7 +18,7 @@
       "value": "westus"
     },
     "existingAoaiResourceId": {
-      "value": ""
+      "value": "<add-your-existing-aoai-resource-id>"
     },
     "createAppInsights": {
       "value": true
