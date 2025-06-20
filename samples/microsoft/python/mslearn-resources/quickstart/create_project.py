@@ -18,7 +18,6 @@ client = CognitiveServicesManagementClient(
 
 # TODO: add code to create a new resource group
 
-# <create_resource_project>
 # Create resource
 resource = client.accounts.begin_create(
     resource_group_name=resource_group_name,
