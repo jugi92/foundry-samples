@@ -16,7 +16,7 @@ client = CognitiveServicesManagementClient(
     api_version="2025-04-01-preview"
 )
 
-# TODO: add code to create create a new resource group
+# TODO: add code to create a new resource group
 
 # <create_resource_project>
 # Create resource
